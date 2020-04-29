@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_height="190dp"
+                android:layout_width="match_parent"
+                android:paddingTop="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_corners"
+                android:text="Buna!\nIP Finder"
+                android:textColor="#fff"
+                android:textSize="40sp">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_below="@+id/tvWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="30dp"
+                android:paddingRight="60dp"
+                android:paddingLeft="60dp">
+
+                <TextView
+                    android:id="@+id/tvOptions"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Ce vrei sa afli?"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnOptionCurrent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvOptions"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:background="@color/blue"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Informatii despre IP-ul curent"
+
+                    />
+                <Button
+                    android:id="@+id/btnOptionAnother"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnOptionCurrent"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:background="#fff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Informatii despre alt IP">
+                </Button>
+
+                <Button
+                    android:id="@+id/btnSeeFavorites"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnOptionAnother"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="80dp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:background="@color/yellow"
+                    android:text="Vezi Categorii">
+                </Button>
+
+                <Button
+                    android:id="@+id/btnSeeIstoric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnSeeFavorites"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:background="@color/yellow"
+                    android:text="Vezi Istoricul Global">
+                </Button>
+
+
+                <Button
+                    android:id="@+id/btnAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnSeeIstoric"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:background="#CCCCCC"
+                    android:text="Despre aplicatie">
+                </Button>
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>

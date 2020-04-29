@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvFavoritesTitle"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corners"
+        android:text="Favorite"
+        android:textColor="#fff"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <ListView
+        android:id="@+id/lvFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

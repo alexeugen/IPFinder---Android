@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756961446280",
+    "firebase_url": "https://ipfinder-1577736848997.firebaseio.com",
+    "project_id": "ipfinder-1577736848997",
+    "storage_bucket": "ipfinder-1577736848997.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756961446280:android:dc8e2c6fe672073b05123d",
+        "android_client_info": {
+          "package_name": "com.example.ipfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756961446280-lk0ggimppaptc3m8fg4pegn1ihtaja3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ipfinder",
+            "certificate_hash": "da4f21c9e3c61d595ae700f575fb4cf5b580bcdf"
+          }
+        },
+        {
+          "client_id": "756961446280-0au0oe84b3hm0t7pamf8j1qsom74sm5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3FqdOF1acEFux9uxQUFQlNpFhvzE828"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756961446280-0au0oe84b3hm0t7pamf8j1qsom74sm5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
